@@ -6,6 +6,8 @@ jQuery(document).ready(function() {
         var a = {
                 zoom: 11,
                 scrollwheel: false,
+           <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCDwEcC9l18gidedyipKJb3gA9BOxzG8jU&callback=initMap"
+  type="text/javascript"></script>
                 center: new google.maps.LatLng(35.102426,-92.311857),
                 styles: [{
                     "featureType": "landscape",
