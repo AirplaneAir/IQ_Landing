@@ -8,7 +8,11 @@ $subject = "New Inquiry"
 
 mail ($to, $subject, $message, "From " . $full_name . $email);
 
-alert("Thanks for filling out a contact fourm. You will be contacted within 24-48 hours");
-window.location.replace("http://webistetitle.com")
+echo '<script type="text/javascript">',
+     'alert("Your message has been sent! We will get back with in 24-48 hours. Press Ok to return to the home page and confirm your submission.");',
+     '</script>';
+echo '<script type="text/javascript">',
+          'window.location.replace("http://www.iqnetworks.co");',
+          '</script>';
 
 ?>
