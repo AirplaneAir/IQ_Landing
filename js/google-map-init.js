@@ -6,7 +6,7 @@ jQuery(document).ready(function() {
         var a = {
                 zoom: 11,
                 scrollwheel: false,
-                center: new google.maps.LatLng(40.67, -73.94),
+                center: new google.maps.LatLng(35.102426,-92.311857),
                 styles: [{
                     "featureType": "landscape",
                     "stylers": [
