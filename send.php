@@ -8,7 +8,7 @@ $subject = "New Inquiry"
 
 mail ($to, $subject, $message, "From " . $full_name . $email);
 
-alert("Thanks for filling out a contact fourm. You will be contacted within 24-48 hours");
-window.location.replace("http://webistetitle.com")
+alert("Thanks for filling out a contact fourm. You will be contacted within 24-48 hours. This page will now redirect to the home page.");
+window.location = "http://iqdev.mthomason.tk";
 
 ?>
